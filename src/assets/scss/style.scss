@@ -1,0 +1,33 @@
+@import "_vars";
+@import "vendor/reset";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: black;
+  font-size: 21px;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: white;
+}
+
+
+/* blocks */
+@import "blocks/page";
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/subnav";
+@import "blocks/search";
+@import "blocks/stories";
+@import "blocks/add__post";
+@import "blocks/post";
+@import "blocks/sidebar";
+@import "blocks/main";
+@import "blocks/container";
+@import "blocks/profile";
+@import "blocks/social"; 
+@import "blocks/btn";
